@@ -42,8 +42,8 @@ explore a test case:
 n = int(input("Enter the number of quarters: "))
 
 # enter the number of times the play has happpened
-plays = 0
 machine = 0
+plays = 0
 first_slot = int(input("Enter the number of plays: "))
 second_slot = int(input("Enter the number of plays: "))
 third_slot = int(input("Enter the number of plays: "))
@@ -65,9 +65,10 @@ while n >= 1:
         if third_slot == 10:
             n += 9
     plays += 1
-    machine += 1
+    machine +=1
     if machine == 3:
         machine = 0
+   
 print(f"Martha plays {plays} times before going broke.")
        
 
