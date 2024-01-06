@@ -51,7 +51,6 @@ third_slot = int(input("Enter the number of plays: "))
 
 while n >= 1:
     n = n - 1
-
     if machine == 0:
         first_slot += 1
         if first_slot == 35:
